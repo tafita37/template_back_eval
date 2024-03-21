@@ -1,0 +1,1 @@
+select sum(reste_stock) as reste_stock from v_etat_stock_point_vente where id_laptop=1 and coalesce(date_mouvement, '2024-03-19')<='2024-03-19'
